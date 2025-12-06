@@ -22,7 +22,7 @@ const config = {
 	blur: 5, // 毛玻璃模糊效果
 
 	// 我的标签
-	tags: ['乐观开朗', '温柔体贴', '随和亲切', '冷静沉着', '才思敏捷', '风趣幽默', '刚正不阿', '善解人意'],
+	tags: ['nature', 'travel', 'style', 'fitness', 'music', 'sunset', 'Love'],
 
 	// 默认背景壁纸
 	background: {
@@ -63,10 +63,12 @@ const config = {
 
 	//打字机
 	typeWriterStrings: [
-		"如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
-		"顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
-		"心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
-		"生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
+		"风吹麦浪稻花香，黑土地养育着咱的爹娘。",
+		"每年的冬天都大雪飞扬，热热的炕头上唠唠家常。",
+		"蓝蓝的天上白云飘扬，清澈的小河在潺潺流淌。",
+		"东北人爱吃那酸菜血肠，秧歌扭起来人们喜洋洋。",
+		"大东北是我的家乡，唢呐吹出了美美的模样。",
+		"哥们相聚必须整二两，醉了月亮暖了我心肠。",
 	],
 
 	//音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
@@ -138,17 +140,14 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "📝 前往", img: "/img/sunshine.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "👍 前往", img: "/img/sunshine.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "Project 5", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "Project 6", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "💍 前往", img: "/img/sunshine.jpg", title: "Project 7", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+		{ go: "🚀 前往", img: "https://ertyu.netlib.re/1765009115343.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "这里什么也没有.", url: "", show: false },
+		{ go: "🗂️ 前往", img: "https://ertyu.netlib.re/1765009217595.png", title: "Project 2", subtitle: "2,000 miles of wonder", text: "这里什么也没有.", url: "", show: false },
+		{ go: "📝 前往", img: "https://ertyu.netlib.re/1765010877346.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "这里什么也没有.", url: "", show: false },
+		{ go: "👍 前往", img: "https://ertyu.netlib.re/1765011051814.png", title: "Project 4", subtitle: "4,000 miles of wonder", text: "还看小心雨姐45码大汗脚.", url: "", show: false },
+		{ go: "🗃 前往", img: "https://ertyu.netlib.re/1765011244595.png", title: "Project 5", subtitle: "5,000 miles of wonder", text: "没救了孩子", url: "", show: false },
 	],
 
-	statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
+	statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Marisa X"],
 }
 
 export default config
